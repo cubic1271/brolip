@@ -5,7 +5,7 @@ Bro Log Information Processor (BroLIP)
 Motivational Blurb
 >>>>>>>>>>>>>>>>>>
 
-The Bro logging library started as a kind of universal translator for btest.  Since it would be nice if new logging formats could re-use existing btests, we decided to put together a kind of universal translator for bro log files.  However, as the library matured a bit, it became evident that this kind of library could be very useful for bro users / developers when performing nontrivial post-processing and analysis of bro log files.  We spent a little bit of time documenting this code and making sure it would be reasonably straightforward to extend to support e.g. SQL, and viola!  We had a library.
+This Bro logging library started as a kind of universal translator for btest.  Since it would be nice if new logging formats could re-use existing btests, we decided to put together a kind of universal translator for bro log files.  However, as the library matured a bit, it became evident that this kind of library could be very useful for bro users / developers when performing nontrivial post-processing and analysis of bro log files.  We spent a little bit of time documenting this code and making sure it would be reasonably straightforward to extend to support e.g. SQL, and viola!  We had a library.
 
 Vital Statistics
 >>>>>>>>>>>>>>>>
