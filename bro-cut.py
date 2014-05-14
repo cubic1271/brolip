@@ -21,8 +21,11 @@ if __name__ == '__main__':
     mgr = SimpleLogManager()
     mgr.load(args.log)
     target = args.fields
+    format_str = ""
+
+    for item in target:
+        format_str += "%s "
 
     for entry in mgr:
-        map(lambda x: sys.stdout.write(str(entry[x]) + " "), target)
-        print ""
+        print format_str % tuple([entry[i] for i in target])
 
